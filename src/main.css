@@ -12,4 +12,12 @@ body {
 .App {
   height: 100vh;
 }
+
+.Gallery {
+  width: 100%;
+}
+
+.Gallery > img {
+  width: 200px;
+}
 /*# sourceMappingURL=main.css.map */

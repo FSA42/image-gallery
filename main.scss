@@ -11,5 +11,11 @@ body{
 
 .App{
     height: 100vh;
+}
 
+.Gallery{
+    width: 100%;    
+    & > img{
+        width: 200px;
+    }
 }
