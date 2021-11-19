@@ -1,6 +1,7 @@
 *{
     margin: 0;
-    padding: 0;;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -10,10 +11,5 @@ body{
 
 .App{
     height: 100vh;
-    & > nav > ul{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        list-style-type: none;
-    }
+
 }
