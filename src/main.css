@@ -39,7 +39,7 @@ img, button {
 .App > .img-container > img {
   height: 75%;
   width: 75%;
-  cursor: none;
+  cursor: inherit;
 }
 
 .App > .img-container > button {

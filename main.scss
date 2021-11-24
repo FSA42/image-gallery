@@ -27,7 +27,7 @@ img,button{
         & > img{
             height: 75%;
             width: 75%;
-            cursor: none;
+            cursor: inherit;
         }
         & > button{
             margin-top: 1rem;
