@@ -9,8 +9,8 @@ const App = () => {
   console.log( ImgID )
   return (  
     <div className="App">
-      <ZoomedImage {...setImgID} />
-      <Gallery {...ImgID}  />      
+      <Gallery  setImgID = {setImgID}  />      
+      <ZoomedImage setImgID = {setImgID}  ImgID={ImgID} />
     </div>
   )
 }
