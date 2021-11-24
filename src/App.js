@@ -1,6 +1,7 @@
 import { useState } from 'react'
 
 import Gallery from "./Gallery"
+import ZoomedImage from './ZoomedImage'
 
 const App = () => {
   const [ ImgID, setImgID ] = useState( null )
@@ -8,7 +9,8 @@ const App = () => {
   console.log( ImgID )
   return (  
     <div className="App">
-      <Gallery   />      
+      <ZoomedImage {...setImgID} />
+      <Gallery {...ImgID}  />      
     </div>
   )
 }
