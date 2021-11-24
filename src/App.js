@@ -9,8 +9,13 @@ const App = () => {
   console.log( ImgID )
   return (  
     <div className="App">
-      <Gallery  setImgID = {setImgID}  />      
-      <ZoomedImage setImgID = {setImgID}  ImgID={ImgID} />
+      {
+        ImgID === null 
+        ? <Gallery  setImgID ={setImgID}/> 
+        : <ZoomedImage setImgID={setImgID} ImgID={ImgID}/>
+      }
+           
+      
     </div>
   )
 }

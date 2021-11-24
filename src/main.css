@@ -9,12 +9,59 @@ body {
   background: #e6e6e6;
 }
 
+img, button {
+  cursor: pointer;
+}
+
 .App {
   height: 100vh;
+  width: 100vw;
+}
+
+.App > .img-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.App > .img-container > img {
+  height: 75%;
+  width: 75%;
+  cursor: none;
+}
+
+.App > .img-container > button {
+  margin-top: 1rem;
+  font-size: 2rem;
+  padding: 1rem 2rem;
 }
 
 .Gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
+  height: 100%;
 }
 
 .Gallery > img {
