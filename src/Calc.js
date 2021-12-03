@@ -2,12 +2,17 @@ import React from 'react'
 
 const Calc = () =>{
     return(
+    <div className="Calc">
         <form>
-            <label htmlFor="name">
-                cena mebli
-                <input type="number" name="" id="" />
+            <h1>
+                
+            </h1>
+            <label htmlFor="width">
+                szerokość{" "}
+                <input type="number" name="width" id="width"/>
             </label>
         </form>
+    </div>
     )
 }
 
